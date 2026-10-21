@@ -1,0 +1,12 @@
+# Source inventory — checked 2026-10-21
+
+These sources support broad concepts only. They do not calibrate any simulation coefficient or validate the stylized routes, speeds, population counts or arbitrary spawn locations.
+
+- NOAA General Solar Position Calculations: https://gml.noaa.gov/grad/solcalc/solareqns.PDF . Fractional-year solar declination, equation of time, positive-east longitude and UTC hour-angle formulas. Leap years use 366 days. Geometric daylight can use a zero-degree horizon; NOAA's sunrise formula instead uses 90.833 degrees to approximate refraction and solar-disk size. If the app uses a geometric horizon, describe that approximation rather than claiming observed sunrise accuracy.
+- Three.js official OrbitControls: https://threejs.org/docs/pages/OrbitControls.html . Explicit addon import, orbit/zoom/touch controls; update after direct camera modifications; damping requires frame updates.
+- Cornell Lab, Arctic Tern life history: https://www.allaboutbirds.org/guide/Arctic_Tern/lifehistory . Northern breeding areas and Antarctic pack-ice edge during southern summer. Supports an illustrative pole-to-pole seasonal target, not a specific track.
+- Cornell Lab, Barn Swallow migration: https://www.allaboutbirds.org/guide/Barn_Swallow/maps-range . North American breeding birds migrate to Central/South America. This demo's profile is a simplified Northern Hemisphere population, not all worldwide populations or an independently opposite Southern Hemisphere breeding population.
+- Cornell Lab, Canada Goose migration: https://www.allaboutbirds.org/guide/Canada_Goose/maps-range . Species ranges from resident to long-distance migrant; some High Arctic breeders winter in the southern United States. Do not model all Canada geese as obligatory polar-to-polar migrants.
+- Cornell Lab, European Starling migration: https://www.allaboutbirds.org/guide/European_Starling/maps-range . Common starling (same species) is resident to short-distance migrant; this North American account notes winter southward movements of many northern birds. Supports a modest seasonal displacement rather than compulsory cross-equator travel.
+
+Earth data source/license is recorded separately with the actual bundled data by the builder. No imagery/map/source text should be copied from Cornell into the app; only broad concepts and species names are used. No live bird-tracking, weather or habitat data is fetched at runtime.

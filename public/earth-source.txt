@@ -1,0 +1,18 @@
+NASA Blue Marble — Land Surface, Ocean Color, and Sea Ice
+
+Bundled asset: earth.jpg (2048 × 1024 JPEG, 266599 bytes), unchanged.
+SHA-256: d4dc80a6ef571939d0abe04a9bed3d3d1e6cd63e59514be1c5e43a6b069e6f1e
+Downloaded 2026-10-21 from:
+https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57730/land_ocean_ice_2048.jpg
+Current NASA asset, verified byte-identical:
+https://assets.science.nasa.gov/content/dam/science/esd/eo/content-feature/bluemarble/images/land_ocean_ice_2048.jpg
+Source description and credits:
+https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/
+
+Credit: NASA / Visible Earth. Image by Reto Stöckli (land surface, shallow water, clouds); enhancements by Robert Simmon (ocean color, compositing, 3D globes, animation).
+
+Usage terms (not a Creative Commons license): NASA Images and Media Usage Guidelines.
+https://www.nasa.gov/nasa-brand-center/images-and-media/
+NASA permits educational/informational graphical simulations and Internet pages, subject to its guidelines, attribution, no implied endorsement, and separately protected third-party material. NASA content generally is not subject to copyright in the United States. Do not imply NASA endorses this app. No NASA insignia or logos are included.
+
+This is a historic, composited Earth texture, not current satellite imagery, real-time sea ice, weather, or seasonal land-cover data. The application changes illumination, not the texture's vegetation or ice extent. It is served locally; the app makes no NASA requests at runtime.
